@@ -1,0 +1,33 @@
+.TaskItem__container {
+  display: flex;
+  align-items: center;
+
+  padding: 1.6rem;
+
+  margin-bottom: 1.2rem;
+
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  background-color: var(--gray-500);
+}
+
+.TaskItem__icon {
+  cursor: pointer;
+}
+
+.TaskItem__description {
+  flex-grow: 1;
+
+  margin-left: 1.2rem;
+
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  color: var(--gray-100);
+}
+
+.TaskItem__description--completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

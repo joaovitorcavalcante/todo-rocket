@@ -1,0 +1,51 @@
+.NewTask__container {
+  display: flex;
+
+  position: relative;
+  top: -2.8rem;
+
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.NewTask__Input {
+  flex-grow: 1;
+
+  padding: 1.6rem;
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  outline: 0;
+
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+}
+
+.NewTask__Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.6rem;
+  margin-left: 0.8rem;
+
+  border-radius: 8px;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.96rem;
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+
+  cursor: pointer;
+}
+
+.NewTask__Icon {
+  margin-left: 0.8rem;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,25 @@
+.Header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 7.2rem 0;
+
+  background-color: var(--gray-700);
+}
+
+.Header__title {
+  padding-left: 1.2rem;
+
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.84rem;
+}
+
+.title--blue {
+  color: var(--blue);
+}
+
+.title--purple {
+  color: var(--purple);
+}
